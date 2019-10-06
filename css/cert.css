@@ -1,0 +1,232 @@
+
+
+html, body{
+
+  max-width:100%;
+  overflow-x:hidden;
+  min-height: 100%;
+}
+
+body{
+
+  margin:0;
+}
+
+.container{
+
+  width:80%
+  margin:auto;
+}
+
+
+/*header design*/
+
+header{
+
+
+margin-top:15px;
+width:95%;
+height:100px;
+
+}
+
+.main-nav ul{
+  display: flex;
+  grid-gap:5px;
+  padding:15px;
+  list-style:none;
+  float:left;
+
+
+}
+
+.main-nav li{
+
+  display: inline-block;
+  text-decoration:none;
+  padding:20px;
+  flex-wrap: wrap;
+
+
+}
+
+.main-nav a{
+
+text-decoration: none;
+font-size:25px;
+
+
+}
+
+
+h1{
+
+  fontg-size:2.5em;
+  font-weight: 800px;
+
+}
+
+.my_name h2{
+
+  font-size: 2.2em;
+  font-weight: 800px;
+  float:right;
+  margin-top:35px;
+  font-family:inherit;
+  margin-left:25px;
+
+}
+
+
+
+
+.my_name h1,h2{
+
+padding: 0;
+margin:0;
+
+}
+
+hr{
+
+  border-bottom: 3px solid #7d97ad;
+  width:95%;
+  margin-top:10px;
+
+}
+
+
+
+
+/* certificate class  */
+
+.certificate{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin:5px;
+  padding:20px;
+  text-align: center;
+
+}
+
+.certificate span{
+font-size:30px;
+margin:auto;
+
+}
+
+.certificate p{
+font-size:20px;
+font-family: sans-serif;
+margin:auto;
+padding:15px;
+
+}
+
+
+.img-certificate img{
+
+margin:0;
+padding:0;
+
+
+}
+
+
+
+footer{
+
+  display: flex;
+  margin: 5px;
+  height: 90px;
+  background-color: #cccaaa;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.foot-1{
+
+  margin-left:25px;
+}
+
+.foot-2{
+
+  margin-right:25px;
+}
+
+
+.fab{
+
+  flex-wrap: wrap;
+  margin-top:5px;
+  margin-left:15px;
+  font-size: 25px;
+  padding:5px;
+
+}
+
+
+
+@media(max-width:1200px){
+
+  .img-certificate img{
+
+
+    width:420px;
+    margin-left:180px;
+
+
+  }
+}
+
+@media(max-width:700px){
+
+  .img-certificate img{
+
+
+    width:320px;
+    margin:0;
+}
+
+
+
+  }
+
+  .certificate p{
+
+    margin-right:25px;
+  }
+
+
+}
+
+@media(max-width:320px){
+
+  .img-certificate img{
+
+
+    margin-left:-25px;
+}
+
+.certificate p{
+
+      margin-right:25px;
+
+  }
+
+
+}
+
+/*
+@media(min-width:700px){
+
+  .img-certificate img{
+
+width:600px;
+
+  }
+
+}
+*/
